@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: sbronwyn <sbronwyn@student.21-school.ru    +#+  +:+       +#+         #
+#    By: sbronwyn <sbronwyn@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2021/10/07 21:46:26 by stanislavko       #+#    #+#              #
-#    Updated: 2021/11/02 13:26:05 by sbronwyn         ###   ########.fr        #
+#    Created: 2021/12/16 13:24:33 by sbronwyn          #+#    #+#              #
+#    Updated: 2021/12/16 13:42:17 by sbronwyn         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,11 @@ SRC = ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c \
 	ft_putendl_fd.c ft_putnbr_fd.c ft_putstr_fd.c ft_split.c ft_strchr.c \
 	ft_strdup.c ft_striteri.c ft_strjoin.c ft_strlcat.c ft_strlcpy.c \
 	ft_strlen.c ft_strmapi.c ft_strncmp.c ft_strnstr.c ft_strrchr.c \
-	ft_strtrim.c ft_substr.c ft_tolower.c ft_toupper.c
+	ft_strtrim.c ft_substr.c ft_tolower.c ft_toupper.c \
+	ft_strcpy.c ft_str_is_alpha.c ft_str_is_numeric.c \
+	ft_str_is_lowercase.c ft_str_is_uppercase.c \
+	ft_str_is_printable.c ft_strupcase.c ft_strlowcase.c \
+	ft_strcmp.c ft_lst_at.c ft_lst_merge.c ft_lst_sort.c
 
 SRC_BONUS = ft_lstadd_back_bonus.c ft_lstadd_front_bonus.c \
 	ft_lstclear_bonus.c ft_lstdelone_bonus.c ft_lstiter_bonus.c \

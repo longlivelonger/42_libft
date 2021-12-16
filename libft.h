@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sbronwyn <sbronwyn@student.21-school.ru    +#+  +:+       +#+        */
+/*   By: sbronwyn <sbronwyn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/04 14:49:16 by sbronwyn          #+#    #+#             */
-/*   Updated: 2021/11/04 15:45:09 by sbronwyn         ###   ########.fr       */
+/*   Updated: 2021/12/16 13:42:02 by sbronwyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,5 +66,19 @@ void		ft_lstdelone(t_list *lst, void (*del)(void *));
 void		ft_lstclear(t_list **lst, void (*del)(void *));
 void		ft_lstiter(t_list *lst, void (*f)(void *));
 t_list		*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+
+char		*ft_strcpy(char *dest, char *src);
+int			ft_str_is_alpha(char *str);
+int			ft_str_is_numeric(char *str);
+int			ft_str_is_lowercase(char *str);
+int			ft_str_is_uppercase(char *str);
+int			ft_str_is_printable(char *str);
+char		*ft_strupcase(char *str);
+char		*ft_strlowcase(char *str);
+int			ft_strcmp(char *s1, char *s2);
+
+t_list		*ft_lst_at(t_list *begin_list, unsigned int nbr);
+void		ft_lst_merge(t_list **begin_list1, t_list *begin_list2);
+void		ft_lst_sort(t_list **begin_list, int (*cmp)());
 
 #endif
